@@ -50,36 +50,54 @@
 //   }
 // }
 // products();
-function getCommonElements(array1, array2) {
-  let commonElements = []; // Створюємо порожній масив для зберігання спільних елементів
+// function getCommonElements(array1, array2) {
+//   let commonElements = []; // Створюємо порожній масив для зберігання спільних елементів
 
-  // Цикл для перевірки кожного елемента з першого масиву
-  for (let i = 0; i < array1.length; i++) {
-    // Перевіряємо, чи поточний елемент існує в другому масиві
-    if (array2.includes(array1[i])) {
-      // Якщо елемент є спільним, додаємо його до масиву спільних елементів
-      commonElements.push(array1[i]);
-    }
-  }
+//   // Цикл для перевірки кожного елемента з першого масиву
+//   for (let i = 0; i < array1.length; i++) {
+//     // Перевіряємо, чи поточний елемент існує в другому масиві
+//     if (array2.includes(array1[i])) {
+//       // Якщо елемент є спільним, додаємо його до масиву спільних елементів
+//       commonElements.push(array1[i]);
+//     }
+//   }
 
-  return commonElements; // Повертаємо масив спільних елементів
-}
+//   return commonElements; // Повертаємо масив спільних елементів
+// }
 
-// Приклади використання функції:
-console.log(getCommonElements([1, 2, 3], [2, 4])); // Виведе: [2]
-console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19])); // Виведе: [1, 2]
-console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27])); // Виведе: [12, 27, 3]
-console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40])); // Виведе: [10, 30, 40]
-console.log(getCommonElements([1, 2, 3], [10, 20, 30])); // Виведе: []
-const family = ["Andriy", "Nastya", "Maksym", "Nina", "Olga"];
-console.log(family.length);
-const numberZero = ["JavaScript", "awesome", "is"].join(" "); // Робить пробіл залежить що в дужках //
-console.log(numberZero);
-const numberOne = [8, 5, 3, 9, 3].indexOf(3);
-console.log(numberOne); // Дивиться в масиві чи є таке значення і повертає його індекс//
-const numberTwo = [8, 5, 3, 9, 3].slice(3);
-console.log(numberTwo); //Робить відрізок по значинню в масиві//
-const numberThree = [2, 4, 6].concat([1, 3], [5]);
-console.log(numberThree); //Робить Конкотинацію//
-const numberFour = [3, 5, 12, 7, 4].includes(8);
-console.log(numberFour); // Повертає True або False //
+// // Приклади використання функції:
+// console.log(getCommonElements([1, 2, 3], [2, 4])); // Виведе: [2]
+// console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19])); // Виведе: [1, 2]
+// console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27])); // Виведе: [12, 27, 3]
+// console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40])); // Виведе: [10, 30, 40]
+// console.log(getCommonElements([1, 2, 3], [10, 20, 30])); // Виведе: []
+// const family = ["Andriy", "Nastya", "Maksym", "Nina", "Olga"];
+// console.log(family.length);
+// const numberZero = ["JavaScript", "awesome", "is"].join(" "); // Робить пробіл залежить що в дужках //
+// console.log(numberZero);
+// const numberOne = [8, 5, 3, 9, 3].indexOf(3);
+// console.log(numberOne); // Дивиться в масиві чи є таке значення і повертає його індекс//
+// const numberTwo = [8, 5, 3, 9, 3].slice(3);
+// console.log(numberTwo); //Робить відрізок по значинню в масиві//
+// const numberThree = [2, 4, 6].concat([1, 3], [5]);
+// console.log(numberThree); //Робить Конкотинацію//
+// const numberFour = [3, 5, 12, 7, 4].includes(8);
+// console.log(numberFour); // Повертає True або False //
+// function sum(a, b) {
+//   console.log(arguments);
+//   return a + b;
+// }
+// sum(2, 5);
+// function multiply() {
+//   let total = 1;
+
+//   for (const arg of arguments) {
+//     total *= arg;
+//   }
+
+//   return total;
+// }
+
+// console.log(multiply(1, 2, 3)); //  6
+// console.log(multiply(1, 2, 3, 4)); //  24
+// console.log(multiply(1, 2, 3, 4, 5)); //  120

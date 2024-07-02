@@ -29,3 +29,4 @@ function checkPassword(value) {
     return value === userPassword;
 }
 console.log(checkPassword(password));
+const age = 'Привіт'
