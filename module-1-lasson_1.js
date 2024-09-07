@@ -1,3 +1,4 @@
+'use strict'
 console.log("Hello Maks");
 const a = NaN;
 console.log(typeof a);
@@ -10,3 +11,14 @@ console.log(students);
 let str = "Hello"
 
 console.log(str[0]);
+
+const f = 10;
+const g = f * 2;
+console.log(g);
+ const isOne = 25;
+ const isTwo = typeof isOne;
+ console.log(isTwo);
+ 
+ const massage = "Mango" + " is " + "happy";
+ console.log(massage);
+ 
