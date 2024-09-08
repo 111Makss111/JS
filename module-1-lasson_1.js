@@ -19,6 +19,25 @@ console.log(g);
  const isTwo = typeof isOne;
  console.log(isTwo);
  
- const massage = "Mango" + " is " + "happy";
- console.log(massage);
- 
+//  const massage = "Mango " +  f  + " happy";
+
+ const questName = "Mango";
+ const roomNumber = 207;
+ const greeting = `Welcome ${questName}, yuor room number is ${roomNumber}!`;
+ console.log(greeting);
+ const pricePerDroid  = 800;
+ const orderedQuantity = 6;
+ const deliveryFee = 50;
+ const totalPrice = pricePerDroid * orderedQuantity + deliveryFee;
+ const massage = `You ordered droids worth ${totalPrice} credits`;
+ console.log(massage.length);
+ const username = "Poly";
+let message = `Username ${username} is ${username.lenght} characters long`
+console.log(message);
+console.log(Math.max(12,82,47,49));
+let num2 = 0.1 + 0.2;
+num2 = num2.toFixed(1)
+console.log(num2);
+const num3 = 0.3;
+const num4 = num2 === num3;
+console.log(num4);

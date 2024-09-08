@@ -53,6 +53,36 @@ function calcBMI(weight,height){
 const bmi = calcBMI("98,7", "1.75");
 console.log(bmi);
 
+function multiply (x, y, z){
+    console.log(`Result: ${x * y * z}`);
+    
+}
+multiply(2,3,5)
+
+// function makeMessage(username) {
+// 	console.log(`Hello ${username}`);
+// }
+// makeMessage()
+function makeMessage (name, price) {
+    return `You picked ${name} price per item is ${price} credits`
+    };
+    console.log(makeMessage('Radar', 6150));
+    
+console.log(makeMessage('Scanner', 3500));
+console.log(makeMessage('Reactor', 8000));
+console.log(makeMessage('Engine', 4070));
 
 
-
+function calculateTotalPrice(orderedQuantity, pricePerItem) {
+    return orderedQuantity * pricePerItem;
+  }
+  console.log(calculateTotalPrice(5, 100));
+  console.log(calculateTotalPrice(8, 60));
+  console.log(calculateTotalPrice(3, 400));
+  console.log(calculateTotalPrice(1, 3500));
+  console.log(calculateTotalPrice(12, 70));
+  
+  
+  
+  
+  
