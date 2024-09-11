@@ -85,4 +85,10 @@ function calculateTotalPrice(orderedQuantity, pricePerItem) {
   
   
   
-  
+  const num1 = 0.1 + 0.2;
+const num2 = Number(num1.toFixed(1));
+console.log(num2);
+const num3 = 0.3;
+console.log(num3);
+const num4 = num2 === num3;
+console.log(num4);
