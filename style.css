@@ -1,0 +1,11 @@
+.btn {
+  color: black;
+  background-color: brown;
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.color-div {
+  width: 300px;
+  background-color: black;
+}
