@@ -37,14 +37,14 @@
 //   { "name": "Nina", "age": 30 },
 //   { "name": "Olia", "age": 15 }
 // ]`;
-function printAdultUsers(user) {
-  const result = [];
-  const strJson = JSON.parse(user);
-  for (const user of strJson) {
-    if (user.age >= 18) {
-      result.push(user.name);
-    }
-  }
-  return result;
-}
-console.log(printAdultUsers(jsonData));
+// function printAdultUsers(user) {
+//   const result = [];
+//   const strJson = JSON.parse(user);
+//   for (const user of strJson) {
+//     if (user.age >= 18) {
+//       result.push(user.name);
+//     }
+//   }
+//   return result;
+// }
+// console.log(printAdultUsers(jsonData));
