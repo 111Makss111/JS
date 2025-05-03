@@ -1,0 +1,29 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/111Makss111/JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/111Makss111/JS/issues"
+  },
+  "homepage": "https://github.com/111Makss111/JS#readme",
+  "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "simplelightbox": "^2.14.3"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

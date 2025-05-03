@@ -5,7 +5,27 @@
   border-radius: 50%;
   cursor: pointer;
 }
-.color-div {
-  width: 300px;
-  background-color: black;
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  padding: 40px;
+}
+.products {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15spx;
+}
+.products li {
+  cursor: pointer;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.swiper-slide img {
+  display: block;
+  margin-left: 140px;
+  padding: 25px;
+  width: 270px;
 }

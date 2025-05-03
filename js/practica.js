@@ -46,7 +46,44 @@
 // replaceWord('Я люблю JS. JS дуже крутий!', 'JS', 'JavaScript');
 // "Я люблю JavaScript. JavaScript дуже крутий!"
 // const fullText = "Я люблю JS. JS дуже крутий!";
-function replaceWord(str, replace, full) {
-  return str.replaceAll(replace, full);
-}
-console.log(replaceWord("Я люблю JS. JS дуже крутий!", "JS", "JavaScript"));
+// function replaceWord(str, replace, full) {
+//   return str.replaceAll(replace, full);
+// }
+// console.log(replaceWord("Я люблю JS. JS дуже крутий!", "JS", "JavaScript"));
+// Задача 1 – Простий виклик функції
+// Створи функцію showName, яка повертає this.name. Виклич її у глобальному контексті та в об'єкті.
+
+// const users = {
+//   name: "Maksym",
+//   age: 29,
+//   showName() {
+//     return console.log(this.name);
+//   },
+// };
+
+// users.showName();
+
+// Задача 2 – Метод об'єкта
+// Створи об'єкт user з полем name і методом greet,
+//  який повертає привітання з ім'ям, використовуючи this.name.
+// const userName = {
+//   name: "Maksym",
+//   age: 29,
+//   greet() {
+//     return console.log(`My name ${this.name} and I am ${this.age} years   `);
+//   },
+// };
+// userName.greet();
+
+// Задача 4 – Використання call
+// Є функція sayHello, яка повертає
+// "Hello, my name is" + this.name.Використай call, щоб задати значення this.
+// const userName = {
+//   name: "Maksym",
+//   age: 29,
+// };
+
+// function sayHello() {
+//   return `Hello, my name is ${this.name}`;
+// }
+// console.log(sayHello.call(userName));
