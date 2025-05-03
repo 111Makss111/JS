@@ -171,3 +171,65 @@
 //     disableOnInteraction: false,
 //   },
 // });
+
+// 4. Змінити колір елемента
+// Умова: При наведенні на блок <div id="colorBox"></div> його колір має змінюватися.
+
+// Покроковий план:
+
+// Вибрати елемент.
+
+// Додати події mouseover і mouseout.
+
+// Змінювати style.backgroundColor.
+
+// const block = document.getElementById("colorBox");
+
+// block.addEventListener("mouseover", () => {
+//   block.style.backgroundColor = "red";
+//   block.style.cursor = "pointer";
+// });
+
+// block.addEventListener("mouseout", () => {
+//   block.style.backgroundColor = "white"; // або вкажи початковий колір, напр. "white"
+// });
+
+// const box = document.getElementById("dragBox");
+
+// document.addEventListener("mousemove", (e) => {
+//   const x = e.clientX;
+//   const y = e.clientY;
+
+//   box.style.left = x - 25 + "px";
+//   box.style.top = y - 25 + "px";
+
+//   createSmoke(x, y);
+// });
+
+// function createSmoke(x, y) {
+//   const smoke = document.createElement("div");
+//   smoke.classList.add("smoke");
+
+//   smoke.style.left = x + "px";
+//   smoke.style.top = y + "px";
+
+//   smoke.style.backgroundColor = getRandomColor();
+
+//   document.body.appendChild(smoke);
+
+//   setTimeout(() => {
+//     smoke.remove();
+//   }, 5000);
+// }
+
+// function getRandomColor() {
+//   const colors = [
+//     "#ff007f",
+//     "#ff7f00",
+//     "#7fff00",
+//     "#00ffff",
+//     "#8a2be2",
+//     "#ff1493",
+//   ];
+//   return colors[Math.floor(Math.random() * colors.length)];
+// }

@@ -29,3 +29,41 @@ body {
   padding: 25px;
   width: 270px;
 }
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+#dragBox {
+  width: 50px;
+  height: 50px;
+  background-color: #00f2ff;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 10;
+  box-shadow: 0 0 15px #00f2ff;
+}
+
+.smoke {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 1;
+  animation: fadeOut 1s ease-out forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-50px) scale(2);
+    opacity: 0;
+  }
+}
